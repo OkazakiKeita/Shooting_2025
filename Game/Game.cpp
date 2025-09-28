@@ -81,7 +81,7 @@ void Game::Update()
 	int sec = (int)m_time;
 
 	wchar_t text[256];
-	swprintf_s(text, 256, L"Žc‚è:%03d•b", sec);
+	swprintf_s(text, 256, L"Žc‚è:%02d•b", sec);
 	m_timeRender.SetText(text);
 	m_timeRender.SetPosition(m_setTime);
 	m_timeRender.SetColor(g_vec4Black);
